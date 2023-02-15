@@ -1,0 +1,33 @@
+.Navbar {
+    display:flex;
+    background-color: #1CE3C8;
+    justify-content: center;
+  }
+  .nav--logo{
+    left:1%;
+    position:absolute;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav--list {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .nav--link {
+    padding-left: 15px;
+    padding-right:15px;
+    padding-top:10px;
+    padding-bottom: 15px;
+    font-size:20px;
+    text-decoration: none;
+    color:black;
+  }
+  
+  .nav--link:hover{
+    background-color: black;
+    color:white;
+  }
