@@ -1,5 +1,5 @@
 import React from "react"
-import workData from "../data/work-data"
+import workData from "../../data/work-data"
 
 export default function CircleLeft() {
     const leftCircleElements = workData.map(work=>{

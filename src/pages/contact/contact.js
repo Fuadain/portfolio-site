@@ -1,7 +1,7 @@
 import React from "react";
-import '../styles/contact.css';
+import './contact.css';
 
-
+//box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
 export default function Work() {
 
     const [formData, setFormData] = React.useState({

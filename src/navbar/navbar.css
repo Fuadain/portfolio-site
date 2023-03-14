@@ -1,12 +1,15 @@
 .Navbar {
+    position: fixed;
     display:flex;
     background-color: #1CE3C8;
     justify-content: center;
+    width:100%;
+    top:0%;
   }
   .nav--logo{
     left:1%;
     position:absolute;
-    margin-top: 5px;
+    padding-top: 5px;
     width: 40px;
     height: 40px;
   }

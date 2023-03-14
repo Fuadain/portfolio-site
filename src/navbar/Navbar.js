@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/logo.png"
-import '../styles/navbar.css';
+import './navbar.css';
 
 export default function Navbar(){
   return (
@@ -12,7 +12,7 @@ export default function Navbar(){
                     Home
                 </Link>
                 <Link to="/work-experience" className="nav--link">
-                    Work Experience
+                    Experience
                 </Link>
                 <Link to="/projects" className="nav--link">
                     Projects

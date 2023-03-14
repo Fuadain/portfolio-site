@@ -1,6 +1,6 @@
 import React from "react";
-import CircleLeft from "../components/circle-left.js"
-import '../styles/work.css';
+import CircleLeft from "./circle-left.js"
+import './work.css';
 
 export default function Work() {
     return (

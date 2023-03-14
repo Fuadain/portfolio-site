@@ -1,12 +1,10 @@
 import React from "react";
-import CircleRight from "../components/circle-right"
+import CircleRight from "./circle-right"
+import './projects.css';
 
 export default function Projects() {
     return (
-        <div>
-          <h1>
-            My Projects
-          </h1>
+        <div className="project-page">
           <CircleRight/>
         </div>
         )

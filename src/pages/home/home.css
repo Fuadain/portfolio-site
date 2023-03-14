@@ -1,0 +1,33 @@
+.home-myImage {
+    max-width: 20%;
+    border-radius:5px;
+}
+
+.home-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:lightgray;
+    padding:5px;
+}
+
+.home-me-desc{
+    display:flex;
+    flex-direction:column;
+    margin-right:15px;
+}
+
+.home-companies {
+
+}
+
+.home-companies-sec {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:10px 10px 10px 10px
+}
+
+.home-companies-img{
+    max-width: 7%;
+}

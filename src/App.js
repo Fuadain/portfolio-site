@@ -1,13 +1,14 @@
 import React from 'react';
-import './styles/App.css';
-import Navbar from './components/Navbar';
+import './App.css';
+import Navbar from './navbar/Navbar';
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
-import Home from './pages/home';
-import Work from './pages/work';
-import Projects from './pages/projects';
-import Contact from './pages/contact';
-  
+import Home from './pages/home/home';
+import Work from './pages/work/work';
+import Projects from './pages/projects/projects';
+import Contact from './pages/contact/contact';
+import ReactCSSTransitionGroup from 'react-transition-group';
+
 // <Route exact path='/' exact element={<Home />} /> (exact had an error)
 function App() {
 return (
